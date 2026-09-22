@@ -3,7 +3,8 @@ import functions as f
 
 f.limparTela()
 
-catalogo = []
+catalogo = f.carregarCatalogo() #arquivo .json
+
 while True:
     f.exibirMenu()
     try:
